@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: hsl(229, 57%, 11%);
+    background-image: url('./images/bg-desktop.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.todo {
+    display: flex;
+    color: white;
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-bottom: 33%;
+    
+}
+.fylo {
+    background-color: hsl(228, 56%, 26%);
+    width: 30%;
+    border-radius: 5%;
+    border-top-right-radius: 40%;
+    margin-right: 5%;
+}
+
+.logo {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.folders {
+    display: flex;
+    margin-left: 5%;
+}
+
+.folder {
+    margin-right: 5%;
+    background-color: hsl(229, 57%, 11%);
+    padding: 3%;
+    border-radius: 20%;
+    margin-bottom: 10%;
+}
+
+.bolder{
+    font-weight: 700;
+}
+
+.storage {
+    background-color: hsl(228, 56%, 26%);
+    width: 50%;
+    border-radius: 7%;
+}
+
+.used {
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.progress{
+    margin-left: 8%;
+
+}
+
+progress{
+    width: 90%;
+    height: 20px;
+    background-color: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+}
+
+.numeros {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.left{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    margin-top: -10%;
+    margin-left: 65%;
+}
+
+strong{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.left p{
+    color: hsl(229, 7%, 55%);
+}
